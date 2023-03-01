@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="images/favicon.ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="images/favicon.ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/favicon.ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/favicon.ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/favicon.ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="images/favicon.ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="images/favicon.ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="images/favicon.ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon.ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon.ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon.ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/favicon.ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon.ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Jack Johnson</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contact Us</h2>
+      <fieldset>
+        <legend>Contact Jack Johnson's Team</legend>
+        <h3>Personal Information</h3>
+        <form
+          action="mailto:miabalcantara@outlook.com"
+          method="post"
+          id="Contact-us-form"
+        >
+          <p>
+            <label for="Full-name"> First and last name </label
+            ><input type="text" id="Full-name" name="Full Name" />
+          </p>
+          <p>
+            <label for="Where-are-you-from?">Where are you from?</label>
+            <select id="Where-are-you-from?" name="Where are you from">
+              <option value="Africa">Africa</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="North-America">North America</option>
+              <option value="Oceania">Oceania</option>
+              <option value="South-America">South America</option>
+            </select>
+          </p>
+          <h3>Music questions</h3>
+          <p>Do you enjoy music?</p>
+          <p>
+            <label for="Yes">Yes</label
+            ><input
+              type="radio"
+              id="Yes"
+              value="Yes"
+              name="Do you enjoy music"
+              checked
+            />
+          </p>
+          <p>
+            <label for="No">No</label
+            ><input type="radio" id="No" name="Do you enjoy music" value="No" />
+          </p>
+          <p>
+            What is your favorite way to listen to music? Select all that apply.
+          </p>
+          <p>
+            <label for="Concerts">Concerts</label
+            ><input
+              type="checkbox"
+              name="Favorite way to listen to music"
+              value="Concerts"
+              id="Concerts"
+            />
+          </p>
+          <p>
+            <label for="Streaming-Apps">Streaming Apps</label
+            ><input
+              type="checkbox"
+              name="Favorite way to listen to music"
+              value="Streaming-Apps"
+              id="Streaming-Apps"
+            />
+          </p>
+          <p>
+            <label for="Vinyl">Vinyl</label
+            ><input
+              type="checkbox"
+              name="Favorite way to listen to music"
+              value="Vinyl"
+              id="Vinyl"
+            />
+          </p>
+          <p>
+            <label for="Other">Other</label
+            ><input
+              type="checkbox"
+              name="Favorite way to listen to music"
+              value="Other"
+              id="Other"
+            />
+          </p>
+          <h3><label for="Your-message">Send us a message</label></h3>
+          <textarea
+            id="Your-message"
+            name="User message"
+            form="Contact-us-form"
+          >
+Enter your message here.</textarea
+          >
+          <p>
+            <input type="reset" value="Cancel" />
+            <input type="submit" value="Send" />
+          </p>
+        </form>
+      </fieldset>
+    </main>
+    <footer>
+      <a href="https://www.dallascollege.edu/" target="_blank"
+        >Dallas College</a
+      >
+      |
+      <a href="mailto:fake@gmail.com">Contact Webmaster</a>
+    </footer>
+  </body>
+</html>
