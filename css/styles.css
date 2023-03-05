@@ -1,0 +1,55 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  color: dimgray;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #0c2f6e;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #b07214;
+}
+a:hover {
+  text-decoration: underline 1px;
+}
+.nav-item {
+  color: #0c2f6e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  padding: 0px 10px;
+}
+#myHeader {
+  color: #0c2f6e;
+}
+header {
+  text-align: center;
+}
+table {
+  margin: 20px 10px 20px 10px;
+}
+caption {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  color: #0c2f6e;
+}
+td {
+  padding: 5px 10px;
+}
+li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+footer {
+  text-align: center;
+}
+.footerLink {
+  padding: 0px 10px;
+}
