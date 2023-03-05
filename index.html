@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      #theMusician {
+        color: cornflowerblue;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -82,14 +87,11 @@
   </head>
   <body>
     <header>
-      <h2>Jack Johnson</h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
+      <h1 id="myHeader">Jack Johnson</h2>
+          <a class="nav-item" href="index.html">Home</a>
+          <a class="nav-item" href="faq.html">FAQ</a>
+          <a class="nav-item" href="gallery.html">Gallery</a>
+          <a class="nav-item" href="contact-us.html">Contact Us</a>
       </nav>
     </header>
     <main>
@@ -144,7 +146,7 @@
         <li>Meet the Moonlight</li>
       </ul>
       <section>
-        <h2>The musician</h2>
+        <h2 id="theMusician">The musician</h2>
         <p>
           <strong>Jack Hody Johnson</strong> was born in May 18, 1975 in North
           Shore, Hawaii. He is an American singer-songwriter, filmmaker, and
@@ -250,11 +252,8 @@
       </section>
     </main>
     <footer>
-      <a href="https://www.dallascollege.edu/" target="_blank"
-        >Dallas College</a
-      >
-      |
-      <a href="mailto:fake@gmail.com">Contact Webmaster</a>
+      <a class="footerLink" href="https://www.dallascollege.edu/" target="_blank">Dallas College</a>
+      <a class="footerLink" href="mailto:fake@gmail.com">Contact Webmaster</a>
     </footer>
   </body>
 </html>
