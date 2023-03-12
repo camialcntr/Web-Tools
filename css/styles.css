@@ -1,55 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #0c2f6e;
+}
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 10px;
   color: dimgray;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: white;
+}
+h3, h5 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #0c2f6e;
+  background-color: #f4f4f4;
+  margin: 10px;
+}
+h2, h4, h6 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #008000;
+  background-color: #f4f4f4;
+  margin: 10px;
+}
+p {
+  margin: 10px;
+  background-color: #f4f4f4;
 }
 a:link,
 a:visited {
   text-decoration: none;
-  color: #b07214;
+  color:#0c2f6e;
+  background-color: #f4f4f4;
 }
 a:hover {
-  text-decoration: underline 1px;
-}
-.nav-item {
-  color: #0c2f6e;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: x-large;
-  padding: 0px 10px;
+  color:green;
 }
 #myHeader {
-  color: #0c2f6e;
-}
-header {
   text-align: center;
+  padding: 5px;
+  background-color: #0c2f6e;
+  margin: 0;
+  color: #ffc505;
+}
+section {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 15px;
 }
 table {
-  margin: 20px 10px 20px 10px;
+  margin: 20px auto;
+  background-color: #f4f4f4;
 }
 caption {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: x-large;
   color: #0c2f6e;
+  font-size: x-large;
+  padding-bottom: 10px;
+  background-color: #f4f4f4;
+}
+th {
+  background-color: #f4f4f4;
+  padding: 5px 15px;
 }
 td {
-  padding: 5px 10px;
+  padding: 5px 15px;
+  background-color: #f4f4f4;
+}
+ul {
+  background-color: #f4f4f4;
+}
+ol {
+  background-color: #f4f4f4;
 }
 li {
-  list-style-type: none;
   padding: 5px 0px;
+  background-color: #f4f4f4;
+}
+dt {
+  padding: 10px;
+  color: #0c2f6e;
+  background-color: #f4f4f4;
+}
+dd {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+fieldset {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  border-color: #0c2f6e;
+}
+legend, form, label, select {
+  background-color: #f4f4f4;
+  border-color: #0c2f6e;
+}
+input {
+  margin: 5px;
+  background-color: #f4f4f4;
+  border-color: #0c2f6e;
+  padding: 5px;
+}
+input[type=text]{
+  width: 70%;
+}
+textarea {
+  width: 80%;
+  height: 100px;
+  background-color: #f4f4f4;
 }
 footer {
-  text-align: center;
+  display: flex;
+  font-size: large;
+  width: 85%;
+  margin: 10px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.footerLink {
-  padding: 0px 10px;
+.myFooter a {
+  background-color: #0c2f6e;
+  color:#ffc505;
 }

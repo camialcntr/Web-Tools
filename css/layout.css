@@ -1,0 +1,25 @@
+article {
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+figure {
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 10px;
+}
+figcaption {
+    background-color: #f4f4f4;
+}
+figcaption {
+    text-align: center;
+    clear: both;
+    color: #0c2f6e;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item {
+  border: 1px solid;
+}
