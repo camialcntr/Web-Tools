@@ -114,8 +114,8 @@ textarea {
 footer {
   display: flex;
   font-size: large;
-  width: 85%;
-  margin: 10px auto;
+  width: 100%;
+  padding: 10px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .myFooter a {
