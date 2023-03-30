@@ -1,14 +1,9 @@
-.gallery-section {
-    background-color: #0c2f6e;
-}
 article {
     float: left;
-    border: 1px solid;
     border-radius: 10px;
     width: 45%;
     margin: 2%;
     margin-top: 1vw;
-    border-radius: 10px;
     background-color: #f4f4f4;
     min-width: 350px;
 }
